@@ -2,9 +2,10 @@
   "name": "firsttime",
   "version": "1.0.0",
   "description": "Random User Generator REST API in Node.js",
-  "main": "uitproberen.js",
+  "main": "./test/firsttime.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node firsttime.js",
+    "test": "node myrandomuser.js"
   },
   "author": "daan",
   "license": "ISC",
@@ -12,3 +13,7 @@
     "express": "^4.15.2"
   }
 }
+
+
+
+
